@@ -1,1 +1,3 @@
 venv
+module1\src\__pycache__
+data\Expenses.json
