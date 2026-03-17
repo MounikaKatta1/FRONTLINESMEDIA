@@ -1,1 +1,0 @@
-You can track the expenses like add an expense, view an expense, view by category, view total expenditure
