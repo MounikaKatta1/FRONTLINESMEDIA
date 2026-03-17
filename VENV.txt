@@ -1,0 +1,127 @@
+Mounika, to **activate a Python virtual environment (venv) in Windows**, the command depends on **which terminal you are using**.
+
+Assume your project structure:
+
+```
+module1
+│
+├── venv
+├── src
+└── test.py
+```
+
+---
+
+# 1️⃣ In Command Prompt (CMD)
+
+Go to your project folder:
+
+```bash
+cd C:\MOUNIKA\Assignments\module1
+```
+
+Activate venv:
+
+c:\MOUNIKA\Assignments\module2\venv\Scripts\activate.bat
+d:\FLM-Mounika\Assignments\module2\venv\Scripts\activate.bat
+
+```bash
+venv\Scripts\activate
+```
+
+Output will look like:
+
+```
+(venv) C:\MOUNIKA\Assignments\module1>
+```
+
+The **`(venv)`** means the virtual environment is active.
+
+---
+
+# 2️⃣ In PowerShell
+
+Use this command:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks it, run once:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Then activate again.
+
+---
+
+# 3️⃣ In VS Code Terminal
+
+Inside your project folder:
+
+```bash
+venv\Scripts\activate
+```
+
+VS Code may also **auto-activate the venv**.
+
+---
+
+# 4️⃣ How to Check If venv Is Active
+
+Run:
+
+```bash
+where python
+```
+
+You should see something like:
+
+```
+C:\MOUNIKA\Assignments\module1\venv\Scripts\python.exe
+C:\MOUNIKA\Assignments\module2\venv\Scripts\python.
+c:\MOUNIKA\Assignments\module2\venv\Scripts\activate.bat
+```
+
+---
+
+# 5️⃣ How to Deactivate venv
+
+Simply run:
+
+```bash
+deactivate
+```
+
+---
+
+# 6️⃣ If venv Doesn't Exist
+
+Create it first:
+
+```bash
+python -m venv venv
+```
+
+Then activate:
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+# 🚀 Quick Workflow (Most Common)
+
+```bash
+cd C:\MOUNIKA\Assignments\module1
+python -m venv venv
+venv\Scripts\activate
+pip install tabulate
+```
+
+---
+
+If you want, I can also show you **one VS Code setting that automatically activates your virtual environment every time you open the project** (very useful).
