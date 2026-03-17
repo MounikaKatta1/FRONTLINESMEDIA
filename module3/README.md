@@ -1,4 +1,4 @@
-# Prompt Analyzer
+# Prompt Analyzer With Assignment-1 & 3
 
 A small Python project that analyzes the quality of a prompt and gives simple feedback.
 
