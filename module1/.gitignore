@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-venv/
-data/Expenses.json
-=======
 venv
-module1\src\__pycache__
->>>>>>> 63bbd253997417c7d9c1bd35e397442bf9bfd4ee
+data/Expenses.json
